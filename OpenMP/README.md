@@ -16,7 +16,7 @@ srun -n 10 -w ExaDELL --pty /bin/bash
 ```
 ### Resultados
 Para la prueba de ordenamiento se usaron N=100000, los cuales se seleccionaron de manera aleatoria con la semilla de time y
-los resultados son los siguientes:
+los resultados con los correspondientes comandos son los siguientes:
 #### Sin Paralelo
 <img style="height:200px; width:1000px"  src="./Images/sin_paralelizar.png"/>
 
