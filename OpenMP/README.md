@@ -12,12 +12,13 @@ paralelizando algunas partes del proceso utilizando OpenMP para mejorar la efici
 Para ejecutar este programa es necesario entrar a <strong>guaneExa</strong>
 ```
 ssh guaneExa
+srun -n 10 -w ExaDELL --pty /bin/bash
 ```
 ### Resultados
 Para la prueba de ordenamiento se usaron N=100000, los cuales se seleccionaron de manera aleatoria con la semilla de time y
 los resultados son los siguientes:
 #### Sin Paralelo
-<img style="height:200px; width:1000px"  src="./images/original.png"/>
+<img style="height:200px; width:1000px"  src="./Images/original.png"/>
 
 #### Con Paralelo
-<img style="height:200px; width:1000px"  src="./images/paralelizado.png"/>
+<img style="height:200px; width:1000px"  src="./Images/paralelizado.png"/>
